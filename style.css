@@ -91,7 +91,8 @@ h2.main-heading {
     justify-content: center;
     gap: 2px;
 }
-.nav-btn{
+
+.nav-btn {
     padding: 4px;
     font-size: 13px;
     border: none;
@@ -104,17 +105,50 @@ h2.main-heading {
     text-decoration: none;
 }
 
-.nav-btn a{
+.nav-btn a {
     text-decoration: none;
     color: #0d6db7;
 }
-.nav-btn a:visited{
-     color: green;
+
+.nav-btn a:visited {
+    color: #8dc63f;
 }
-.nav-btn:hover{
+
+.nav-btn:hover {
     background-color: transparent;
     border-bottom: none;
 }
-hr{
+
+hr {
     opacity: 0.3;
+}
+
+.mainform {
+    display: flex;
+    margin-top: 20px;
+    line-height: 1.7;
+    margin-left: 34px;
+}
+
+label {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d6db7;
+    font-weight: bold;
+}
+
+.first-form,
+.second-form,
+input,
+select {
+    height: 52px;
+    width: 70%;
+    border-radius: 7px;
+    padding-left: 9px;
+}
+
+input,
+select,
+option {
+    border: 1px solid #8dc63f;
 }

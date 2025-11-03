@@ -61,9 +61,8 @@
         <button class="nav-btn">Results</button>
     </section>
     <hr />
-
-    <section class="form-sec">
-        <form>
+    <div class="mainform">
+        <form class="first-form">
             <label for="country">Select Country</label>
             <div>
                 <select name="Country" id="country">
@@ -73,22 +72,18 @@
                     <option value="country">Yemen</option>
                 </select>
             </div>
-            <label for="country">Select Country</label>
+            <label for="gender">Select Gender</label>
             <div>
-                <select name="Country" id="country">
-                    <option value="country">Select Country</option>
-                    <option value="country">Pakistan</option>
-                    <option value="country">Turkey</option>
-                    <option value="country">Yemen</option>
+                <select name="Gender" id="gender">
+                    <option value="gender">Select Gender</option>
+                    <option value="gender">Male</option>
+                    <option value="gender">Female</option>
                 </select>
             </div>
-            <label for="country">Select Country</label>
+            <label for="country">Select course or event</label>
             <div>
-                <select name="Country" id="country">
-                    <option value="country">Select Country</option>
-                    <option value="country">Pakistan</option>
-                    <option value="country">Turkey</option>
-                    <option value="country">Yemen</option>
+                <select name="Course" id="course">
+                    <option value="Course">Select Course or Event</option>
                 </select>
             </div>
             <label for="Father">Father Name</label>
@@ -104,60 +99,66 @@
             <div>
                 <input type="number" placeholder="cnic" id="cnic">
             </div>
-
-             <label for="country">Select your computer's proficiency</label>
+            <label for="Proficiency">Select your computer proficiency</label>
             <div>
-                <select name="Country" id="country">
-                    <option value="country">Select Country</option>
-                    <option value="country">Pakistan</option>
-                    <option value="country">Turkey</option>
-                    <option value="country">Yemen</option>
+                <select name="profiency" id="Proficiency">
+                    <option value="proficiency">Select your computer proficiency</option>
+                    <option value="proficiency">None</option>
+                    <option value="proficiency">Beginner</option>
+                    <option value="proficiency">Intermediate</option>
+                    <option value="proficiency">Advanced</option>
                 </select>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </form>
-    </section>
+        <form class="second-form">
 
+            <label for="class">Select class preference</label>
+            <div>
+                <select name="" id="">
+                    <option value="">Select class preference</option>
+                    <option value="">Online</option>
+                    <option value="">Onsite</option>
+                </select>
+            </div>
+            <label for="city">Select City</label>
+            <div>
+                <select name="city" id="city">
+                    <option value="City">Select City</option>
+                    <option value="City">Karachi</option>
+                    <option value="City">Islamabad</option>
+                    <option value="City">Lahore</option>
+                    <option value="City">Gujranwala</option>
+                    <option value="City">Gotki</option>
+                    <option value="City">Rawalpindi</option>
+                </select>
+            </div>
+            <label for="name">Full Name</label>
+            <div>
+                <input type="text" placeholder="Full name" id="name">
+            </div>
+            <label for="email">Email</label>
+            <div>
+                <input type="email" placeholder="Email" id="email">
+            </div>
 
+            <label for="Fcnic">CNIC</label>
+            <div>
+                <input type="number" name="fcninc" id="Fcnic" placeholder="CNIC">
+            </div>
+            <label for="date">Date of Birth</label>
+            <div>
+                <input type="date" name="date" id="Date">
+            </div>
+            <label for="laptop">Do you have a Laptop?</label>
+            <div>
+            <select name="lap" id="laptop">
+                <option value="lap">Do you have a laptop?</option>
+                <option value="lap">Yes</option>
+                <option value="lap">No</option>
+            </select>
+            </div>
+        </form>
+    </div>
 
 
 
