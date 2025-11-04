@@ -60,12 +60,12 @@
         <button class="nav-btn">Download ID Card</button>
         <button class="nav-btn">Results</button>
     </section>
-    <hr />
+    <hr class="hr">
     <div class="mainform">
-        <form class="first-form">
+        <form class="first-form" id="hello">
             <label for="country">Select Country</label>
             <div>
-                <select name="Country" id="country">
+                <select name="Country" id="country" required>
                     <option value="country">Select Country</option>
                     <option value="country">Pakistan</option>
                     <option value="country">Turkey</option>
@@ -110,7 +110,7 @@
                 </select>
             </div>
         </form>
-        <form class="second-form">
+        <form class="second-form" id="Hello" >
 
             <label for="class">Select class preference</label>
             <div>
@@ -159,23 +159,81 @@
             </div>
         </form>
     </div>
-
-    <div>
-        <form class="qualify">
-            <select name="quali" id="Qualify">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+    <div class="whole">
+        <label for="Quali">Last Qualification</label>
+        <div class="quali">
+            <select id="Quali">
+                <option value="">Last Qualification</option>
+                <option value="last">Matric</option>
+                <option value="last">Intermediate</option>
+                <option value="last">Under Graduate</option>
+                <option value="last">Graduate</option>
+                <option value="last">Masters</option>
+                <option value="last">Phd</option>
+                <option value="last">Other</option>
             </select>
-        </form>
+        </div>
     </div>
+    <div class="address">
+        <label for="add">Address</label>
+        <div>
+            <input type="text" id="add" placeholder="Address">
+        </div>
+    </div>
+    <div class="rex">
+        <label for="pic">Picture</label>
+        <div class="picture" id="pic">
+            <div class="upload">
+                + Upload
+            </div>
+        </div>
+        <div class="photo-text">
+            With white or blue background <br>
+            File size must be less than 1MB <br>
+            File type: jpg, jpeg, png <br>
+            Upload your recent passport size picture <br>
+            Your Face should be clearly visible without any Glasses
+        </div>
+    </div>
+    <hr class="line-break">
 
+    <ol>
+        <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my
+            knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+        <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other
+            activity, political or ethical, but learning during my stay in the program.
+        </li>
+        <li>Defiance will render my admission canceled at any point in time.
+        </li>
+        <li>Upon completion, of the course, I will complete the required project by SWIT.
+        </li>
+        <li>It's mandatory for female students to wear abaya/hijab in the class
+        </li>
+    </ol>
 
-
+    <div class="outerbox">
+        <div class="both">
+            <div class="smallbox">
+            </div>
+            <div class="box-text">
+                I'm not a robot
+            </div>
+        </div>
+        <div class="captcha">
+            <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="">
+        </div>
+        <div class="recaptcha">
+            reCAPTCHA
+        </div>
+        <ul class="rules">
+            <li class="pr"><a href="https://policies.google.com/privacy" target="_blank">Privacy</a></li>
+            <li class="pr">-</li>
+            <li class="pr"><a href="https://policies.google.com/terms" target="_blank">Terms</a></li>
+        </ul>
+    </div>
+    <form>
+        <input type="submit" value="Submit" class="submit" form="hello" >
+    </form>
 
 </body>
 
