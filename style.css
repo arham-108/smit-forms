@@ -163,14 +163,16 @@ option {
     outline: none;
 }
 
-select:focus{
+select:focus {
     border: 1px solid #0d6db7;
     box-shadow: 0 0 5px #3498db6c;
 }
-input:hover{
+
+input:hover {
     border: 1px solid #0d6db7;
 }
-input:focus{
+
+input:focus {
     border: 1px solid #0d6db7;
     box-shadow: 0 0 5px #3498db6c;
 }
@@ -377,13 +379,13 @@ li::marker {
     align-items: center;
     background-color: #0d6db7cc;
     border: 1px solid #0d6db7;
-    margin: 2.6em 0em 0em 16.8em;
-    width: 71%;
+    margin: 45.6rem 0em 0em -44.2em;
+    width: 146%;
     height: 52px;
     border-radius: 6px;
     color: #fff;
     cursor: pointer;
-    transition: .3s;
+    transition: .3s
 }
 
 .submit:hover {
